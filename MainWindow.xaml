@@ -1,0 +1,39 @@
+﻿<Window x:Class="ShortCuts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShortCuts"
+        mc:Ignorable="d"
+        Title="Power OFF" Height="331.934" Width="187.2" Icon="PikPng.com_power-button-png_746272.png" ResizeMode="NoResize">
+    <Grid Margin="0,0,-0.2,0" HorizontalAlignment="Right" Width="181">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="154*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="ShutDown" HorizontalAlignment="Left" Height="33" Margin="5.8,59,0,0" VerticalAlignment="Top" Width="116" Click="Button_Shutdown" Grid.Column="1"/>
+        <TextBox Name="Minuten" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Margin="6.8,26,0,0" RenderTransformOrigin="0.487,0.6" Grid.Column="1"/>
+        <Button Content="Reset"  HorizontalAlignment="Left" Height="34" Margin="5.8,97,0,0" VerticalAlignment="Top" Width="116" Click="Button_Reset" Grid.Column="1">
+
+        </Button>
+        <Label Content="Wie viele Minuten?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5.8,0,0,0" Width="138" Height="26" Grid.Column="1"/>
+        <Label Content="(C) Eduard Kelmann | Bester Programmierer der Welt" HorizontalAlignment="Left" Height="19" Margin="10,257,-5.2,0" VerticalAlignment="Top" Width="176" FontSize="7" Grid.ColumnSpan="3" RenderTransformOrigin="0.502,1.084"/>
+        <Label Content="Wird heruntergefahren um:" HorizontalAlignment="Left" Height="20" Margin="11.8,205,0,0" VerticalAlignment="Top" Width="115" Grid.Column="1" FontSize="7"/>
+        <Label Name="lblTime" Content="-- : -- : --" Grid.Column="1" HorizontalAlignment="Center" Height="32" Margin="16.8,0,19.8,29.8" VerticalAlignment="Bottom" Width="117" FontSize="18"/>
+        <Label Grid.ColumnSpan="2" Content="PowerOFF.exe v0.0.2" HorizontalAlignment="Left" Height="18" Margin="10,268,0,-0.4" VerticalAlignment="Top" Width="115" FontSize="7"/>
+
+        <ComboBox Name="comboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="6.8,136,0,0" VerticalAlignment="Top" Width="115" Loaded="LoadComboBoxData" SelectionChanged="ComboBox_Verlaengerung" RenderTransformOrigin="0.5,0.5">
+            <ComboBoxItem Content="+5 Minuten"/>
+            <ComboBoxItem Content="+15 Minuten"/>
+            <ComboBoxItem Content="+30 Minuten"/>
+            <ComboBoxItem Content="+45 Minuten"/>
+            <ComboBoxItem Content="+1 Stunde"/>
+            <ComboBoxItem Content="+1:30 Stunden"/>
+            <ComboBoxItem Content="+2:00 Stunden"/>
+        </ComboBox>
+        <Button Content="Comming Soon" HorizontalAlignment="Left" Height="34" Margin="5.8,163,0,0" VerticalAlignment="Top" Width="116" Click="Button_Reset" Grid.Column="1">
+        </Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\MainWindow.g.cs
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\App.g.cs
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\MainWindow.baml
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\ShortCuts.csproj.GenerateResource.cache
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\ShortCuts.csproj.CoreCompileInputs.cache
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\bin\Debug\PowerOFF.exe.config
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\bin\Debug\PowerOFF.exe
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\bin\Debug\PowerOFF.pdb
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\PowerOFF_MarkupCompile.cache
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\PowerOFF_MarkupCompile.lref
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\PowerOFF.g.resources
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\PowerOFF.Properties.Resources.resources
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\PowerOFF.exe
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\PowerOFF.pdb
+C:\Users\elihu\source\repos\ShortCuts\ShortCuts\obj\Debug\ShortCuts.csprojAssemblyReference.cache
